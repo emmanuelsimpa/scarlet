@@ -1,0 +1,37 @@
+section#work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 2rem;
+  background-color: var(--tertiary-color);
+}
+
+div.work_card {
+  padding: 2rem;
+  flex-basis: calc(40rem + 3vw);
+  flex-grow: 1;
+  /* clip-path: polygon(); */
+  clip-path: polygon(
+    20% 0,
+    80% 0,
+    100% 20%,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0 80%,
+    0 20%
+  );
+}
+
+div.work_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.5s ease;
+}
+
+div.work_card img:hover,
+div.work_card img:active {
+  filter: sepia(80%);
+}

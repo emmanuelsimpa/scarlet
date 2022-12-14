@@ -1,0 +1,43 @@
+section#contact {
+  height: 100vh;
+  background-image: url(/public/media/img/full-bg-03.jpg);
+  object-fit: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.contact_form {
+  flex-basis: 40rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tertiary-color-m);
+}
+
+.contact_form input,
+.contact_form textarea {
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  padding: 2rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.1rem solid var(--secondary-color);
+}
+.contact_form textarea {
+  height: 30vh;
+}
+
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 460px) {
+  section#contact {
+    background-position: 10% 5%;
+  }
+}

@@ -1,0 +1,171 @@
+section#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: calc(1rem + 2vw);
+  background-color: var(--tertiary-color);
+}
+
+.skills_design,
+.skills_coding {
+  padding: calc(1rem + 2vw);
+  flex-basis: 40rem;
+  flex-grow: 1;
+}
+
+.skills_design--title,
+.skills_coding--title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.skills_design h4,
+.skills_coding h4 {
+  font-size: 2rem;
+  color: white;
+}
+
+.skills_design--progress,
+.skills_coding--progress {
+  position: relative;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  background-color: var(--primary-color);
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.percentage_1,
+.percentage_2,
+.percentage_3,
+.percentage_4 {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: calc(0.5rem + 0.5vw);
+  font-weight: bold;
+  color: white;
+}
+
+.skills_design--progress span,
+.skills_coding--progress span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 2rem;
+  border-radius: 1rem 0 0 1rem;
+  background-color: var(--secondary-color);
+}
+
+.skills_design--progress_1 {
+  animation: design-1 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes design-1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.skills_design--progress_2 {
+  animation: design-2 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes design-2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.skills_design--progress_3 {
+  animation: design-3 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes design-3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+.skills_design--progress_4 {
+  animation: design-4 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes design-4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.skills_coding--progress_1 {
+  animation: coding-1 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes coding-1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+.skills_coding--progress_2 {
+  animation: coding-2 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes coding-2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.skills_coding--progress_3 {
+  animation: coding-3 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes coding-3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.skills_coding--progress_4 {
+  animation: coding-4 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+@keyframes coding-4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .skills_design--title,
+  .skills_coding--title {
+    font-size: calc(1.2rem + 2vw);
+  }
+
+  .skills_design h4,
+  .skills_coding h4 {
+    font-size: calc(1.2rem + 2vw);
+  }
+}

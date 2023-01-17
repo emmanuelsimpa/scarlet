@@ -7,7 +7,7 @@ export default function HeroLayout() {
       <div className='showcase_content'>
         <h1 className='showcase_content--title'>Scarlett Tyler</h1>
         <p className='showcase_content--para'>
-          UX Designer / Frontend Developer
+          UX Designer / Frontend Engineer
         </p>
         <a href='#' className='showcase_content--link'>
           My Work

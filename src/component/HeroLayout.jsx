@@ -5,7 +5,7 @@ export default function HeroLayout() {
   return (
     <section id='showcase'>
       <div className='showcase_content'>
-        <h1 className='showcase_content--title'>Scarlett Tyler</h1>
+        <h1 className='showcase_content--title'>Doctor Bosey</h1>
         <p className='showcase_content--para'>
           UX Designer / Frontend Engineer
         </p>

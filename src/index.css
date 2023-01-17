@@ -22,8 +22,6 @@ body > div {
   font-family: "Baloo Tamma 2", cursive;
   line-height: 1.8;
   display: flex;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 
 li {

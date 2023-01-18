@@ -10,7 +10,7 @@ export default function HeroLayout() {
           UX Designer / Frontend Engineer
         </p>
         <a href='#' className='showcase_content--link'>
-          My Work
+          My Works
         </a>
       </div>
     </section>
